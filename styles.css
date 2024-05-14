@@ -1,0 +1,54 @@
+body{
+    background-color: #eeeeee;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin: 5% 0 5% 0;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.question{
+    border-radius: 7.5px;
+    background-color: #fafafa;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+    padding: 0 10px 0 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.paragraphs-div{
+    background-color: #fafafa;
+    width: 80%;
+}
+
+.answer{
+    color: darkgreen;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+    color: darkgreen;
+    height: 50%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
